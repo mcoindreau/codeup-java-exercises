@@ -48,6 +48,7 @@ public class java_syntax {
 //        shorter
         x /= y;
         y -= x;
+
         System.out.println(x);
         System.out.println(y);
 
