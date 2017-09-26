@@ -7,22 +7,21 @@ public class Bob {
 
         while(true) {
 
-            System.out.println("Enter ");
+            System.out.println("Enter message");
             String name = input.nextLine();
             String lastQuestion = "?";
             String lastYell = "!";
-            String lastNada = "";
-
 
             if (name.endsWith(lastQuestion)) {
                 System.out.println("Sure.");
-            } else if (name.endsWith(lastYell)) {
+            } else if (name.endsWith("!") || name.equals(name.toUpperCase()) && !name.isEmpty()){
                 System.out.println("Whoa, chill out!");
-            } else if (name.endsWith(lastNada)) {
+            } else if (name.isEmpty()) {
                 System.out.println("Fine. Be that way!");
             } else {
                 System.out.println("Whatever.");
             }
+
             System.out.println("Do you want to continue? y/n");
             String option = input.nextLine();
 
