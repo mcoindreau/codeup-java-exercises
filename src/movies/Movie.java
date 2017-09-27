@@ -10,8 +10,11 @@ public class Movie {
         this.categories = categories;
     }
 
-
     public String getName() {
         return name;
+    }
+
+    public String getCategory() {
+        return categories;
     }
 }
