@@ -17,4 +17,8 @@ public class Movie {
     public String getCategory() {
         return categories;
     }
+
+    public int nextLine() {
+        return 0;
+    }
 }

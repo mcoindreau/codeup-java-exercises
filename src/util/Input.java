@@ -27,12 +27,11 @@ public class Input {
         return answer;
     }
 //
-    public boolean yesNo(String tMean){
-        System.out.println(tMean);
-        tMean = this.scanner.nextLine();
+    public boolean yesNo(String answer){
+        System.out.println(answer);
+        answer = this.scanner.nextLine();
 
-        if (tMean.equals ("y") || tMean.equals("yes")){
-            System.out.println("Preach");
+        if (answer.equals ("y") || answer.equals("yes")){
             return true;
         }else {
             return false;
@@ -58,11 +57,11 @@ public class Input {
 //            return this.scanner.nextInt();
 //        }else{
 //            System.out.println("Invalid");
+//            scanner.nextLine();
 //            return getInt();
 //        }
 //    }
 
-//
     public double getDouble (double min, double max){
         System.out.println("Give me a double number between");
         double dIntMinMax = Integer.parseInt(scanner.nextLine());
@@ -85,14 +84,6 @@ public class Input {
             return getDouble();
         }
     }
-
-
-
-
-
-
-
-
 
 
 
