@@ -40,14 +40,14 @@ public class Input {
     }
 
     public int getInt(int min, int max){
-        System.out.println("Give me a number between " ); //+ getInt
+//        System.out.println("Make selection between 0 through 5" ); //+ getInt *** Modify for Movie Application
         int intMinMax = Integer.parseInt(scanner.nextLine());
 
         if(intMinMax < min || intMinMax > max){
             System.out.println("Outside limit");
            intMinMax = getInt(min, max);
         }else {
-            System.out.println("You're good!");
+//            System.out.println("You're good!"); removed for Movie Application
             return intMinMax;
         }
         return intMinMax;
