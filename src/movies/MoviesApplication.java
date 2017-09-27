@@ -5,8 +5,8 @@ import util.Input;
 import java.util.Scanner;
 
 public class MoviesApplication {
-    public static void main(String[] args) {
-
+    public static void main(String[] args) { //need main method since calling methods
+    //if not static need to state it to call it since can't directly call
          Scanner scanner = new Scanner(System.in);
         Input input = new Input();
 
@@ -30,7 +30,7 @@ public class MoviesApplication {
             } else if (catChoice == 1) {
                 Movie[] allMovies = MoviesArray.findAll();
 
-                for (Movie movie : allMovies) {
+                for (Movie movie : allMovies) { //
                     System.out.println(movie.getName());
                 }
 
