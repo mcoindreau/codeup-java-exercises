@@ -1,6 +1,6 @@
 package shapes;
 
-public class Square extends Quadralateral implements Measurable{  //wan to extend to another class; may see an error until you create a constructor
+public class Square extends Quadrilateral implements Measurable{  //wan to extend to another class; may see an error until you create a constructor
     private double side; //only one argument
 
     public Square(double side){ //Constructor - Method that has the same name as class
