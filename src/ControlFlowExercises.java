@@ -1,8 +1,8 @@
-import java.util.Scanner;
-
-public class controlStructures {
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+//import java.util.Scanner;
+//
+//public class controlStructures {
+//    public static void main(String[] args) {
+//        Scanner scan = new Scanner(System.in);
 //        System.out.println("5" == 5);
 //        System.out.println(3 == 5);
 //        System.out.println(3.5 >= 5);
@@ -114,9 +114,9 @@ public class controlStructures {
 
 //        while (true) {
 
-            System.out.println("Give me your grade");
-            int grade = scan.nextInt();
-            scan.nextInt();
+//            System.out.println("Give me your grade");
+//            int grade = scan.nextInt();
+//            scan.nextInt();
 
 //            if (grade <=)
 //            System.out.println("number | squared | cubed \n" + "------ | ------- | -----");
@@ -140,7 +140,7 @@ public class controlStructures {
 
 
 
-    }
-}
+//    }
+//}
 
 
